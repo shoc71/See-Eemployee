@@ -5,7 +5,7 @@ written by shoc71;
 ## Description
 Full stack application that allows Managers & Owners to keep track of their employees, jobs, positoins, wages, and more. By using the terminal the user can update, add, or delete user information in real-time and save all informaiton immediately upon editing the tables. 
 
-Soruce code located on index.js on root directory of this folder.
+Soruce code located on index.js on root directory of this folder. This is to avoid any bugs or crashes from seperating the code.
 
 ## Table of Contents
 - [Description](#description)
