@@ -42,5 +42,7 @@ This project is licensed under the [![License](https://opensource.org/licenses/A
 For any questions or concerns, please email mrdrlogic@gmail.com
 
 Youtube Tutorial: [See-Employee Walkthrough](https://youtu.be/Va5LKcrqqTw)
+
 Deployed Webpage: https://shoc71.github.io/See-Employee/
+
 GitHub Profile: [shoc71](https://github.com/shoc71)
