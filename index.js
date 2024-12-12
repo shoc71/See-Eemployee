@@ -6,7 +6,7 @@ require('dotenv').config();
 const pool = new Pool({
     host: process.env.DB_HOST || 'localhost',
     user: process.env.DB_USER || 'postgres',
-    password: process.env.DB_PASSWORD || 'infiniteloop',
+    password: process.env.DB_PASSWORD || 'password',
     database: process.env.DB_NAME || 'second_db',
     port: process.env.DB_PORT || 5432,
     ssl: process.env.DB_SSL === 'true'
@@ -140,6 +140,8 @@ async function mainMenu() {
             'Add a Department',
             'Add a Role',
             'Add an Employee',
+            'Update a Department',
+            'Update a Role',
             'Update an Employee Role',
             'Update an Employee Manager',
             'Delete a Department',
@@ -159,7 +161,9 @@ async function mainMenu() {
         case 'Add a Department': await addDepartment(); break;
         case 'Add a Role': await addRole(); break;
         case 'Add an Employee': await addEmployee(); break;
-        case 'Update an Employee Role': await updateEmployeeRole(); break;
+        case 'Update a Department': await updateDepartment(); break;
+        case 'Update a Role': await updateRole(); break;
+        case 'Update an Employee Role': await updateEmployee(); break;
         case 'Update an Employee Manager': await updateEmployeeManager(); break;
         case 'Delete a Department': await deleteDepartment(); break;
         case 'Delete a Role': await deleteRole(); break;
